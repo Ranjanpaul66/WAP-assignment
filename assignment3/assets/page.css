@@ -1,0 +1,51 @@
+        /* Styling for the header */
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        /* Styling for the welcome message */
+        .welcome {
+            text-align: center;
+        }
+
+        /* Styling for the logout button */
+        .logout {
+            text-align: right;
+        }
+
+        /* Styling for tables */
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+.productHeader{
+    margin-left: 120px;
+}
+
+.shoppingCartList{
+    margin-left: 120px;
+}
+
+.total-cost {
+    text-align: right;
+    font-weight: bold;
+}
