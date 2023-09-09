@@ -1,0 +1,9 @@
+const getNewArray = function(arr) {
+  const newArr = arr.filter(str => str.length >= 5 && str.includes('a'));
+
+  return newArr;
+}
+
+const strings = ["apple", "banana", "cherry", "grape", "kiwi"];
+const newArray = getNewArray(strings);
+console.log(newArray); 
