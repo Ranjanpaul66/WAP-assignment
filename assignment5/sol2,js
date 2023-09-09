@@ -4,6 +4,6 @@ const getNewArray = function(arr) {
   return newArr;
 }
 
-const strings = ["apple", "banana", "cherry", "grape", "kiwi"];
+const strings = ["Sample", "Hub", "cherry", "grape", "kiwi", "Silak"];
 const newArray = getNewArray(strings);
 console.log(newArray); 

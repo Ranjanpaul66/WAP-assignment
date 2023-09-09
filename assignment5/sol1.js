@@ -6,6 +6,6 @@ function sum(arr) {
     return sum;
 }
 
-const numbers = [10, 25, 5, 30, 15];
+const numbers = [100, 25, 50, 45, 15];
 const result = sum(numbers);
 console.log(result);
