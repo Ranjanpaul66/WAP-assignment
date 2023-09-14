@@ -24,6 +24,5 @@ stuNew.inputNewGrade(89);
 stuNew.inputNewGrade(90);
 stuNew.inputNewGrade(99);
 const students = [stu, stuNew];
-const result = students.reduce((average, stu, index, array) => average + stu.
-computeAverageGrade() / array.length, 0);
+const result = students.reduce((average, stu, index, array) => average + stu.computeAverageGrade() / array.length, 0);
 console.log(result);
